@@ -1,0 +1,8 @@
+#mauricio1998/tech-db-substitutiva
+FROM postgres:latest
+
+ENV POSTGRES_DB="substitutiva_soat"
+ENV POSTGRES_PASSWORD="1234"
+ENV POSTGRES_USER="postgres"
+
+COPY ./build/schema.sql ./docker-entrypoint-initdb.d/

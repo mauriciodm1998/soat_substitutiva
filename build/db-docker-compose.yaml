@@ -1,0 +1,18 @@
+version: '3'
+services:
+  postgres:
+    container_name: postgres_fiap
+    image: mauricio1998/tech-db-substitutiva
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "substitutiva_soat"
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_USER: "postgres"
+  api:
+    depends_on:
+    - postgres
+    container_name: api
+    image: mauricio1998/api-substitutiva
+    ports:
+      - "8080:8080"

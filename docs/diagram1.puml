@@ -1,0 +1,20 @@
+@startuml
+
+skinparam componentStyle rectangle
+
+component "cliente foi cadastrado" as cfc
+component "veiculo foi registrado" as vfc
+component "veiculos a venda foram listados" as vavfl
+component "cliente comprou veiculo" as ccv
+component "venda foi gerada" as vfg
+component "veiculo foi editado" as vfe
+component "veiculos vendidos foram listados" as vvfl
+
+vfc -> cfc
+cfc -> vavfl
+vavfl -> ccv
+ccv -> vfg
+vfg -> vfe
+vfe -> vvfl
+
+@enduml
