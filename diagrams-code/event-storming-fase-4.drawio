@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ZwvpeUjInZZQILMXcv_N" name="Page-1">
-        <mxGraphModel dx="2410" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1956" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,7 +37,7 @@
                 <mxCell id="6" value="" style="group;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="55" y="190" width="80" height="67" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;font color=&quot;#000000&quot;&gt;Customer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="6" vertex="1">
+                <mxCell id="4" value="&lt;font color=&quot;#000000&quot;&gt;Cliente&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="6" vertex="1">
                     <mxGeometry x="20" y="7" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;font color=&quot;#000000&quot;&gt;AT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6" vertex="1">
@@ -159,7 +159,7 @@
                 <mxCell id="93" value="" style="group;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="255" y="190" width="136" height="66" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="&lt;font color=&quot;#000000&quot;&gt;Customer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="93" vertex="1">
+                <mxCell id="94" value="&lt;font color=&quot;#000000&quot;&gt;Cliente&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="93" vertex="1">
                     <mxGeometry x="16" y="6" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="&lt;font color=&quot;#000000&quot;&gt;AG&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="93" vertex="1">
@@ -183,10 +183,10 @@
                 <mxCell id="36" value="&lt;font color=&quot;#000000&quot;&gt;EV&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="34" vertex="1">
                     <mxGeometry width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="" style="group;" parent="1" vertex="1" connectable="0">
+                <mxCell id="82" value="O" style="group;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="75" y="318.39" width="80" height="67" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="&lt;font color=&quot;#000000&quot;&gt;Operator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="82" vertex="1">
+                <mxCell id="83" value="&lt;font color=&quot;#000000&quot;&gt;Operador&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="82" vertex="1">
                     <mxGeometry x="20" y="7" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="84" value="&lt;font color=&quot;#000000&quot;&gt;AT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="82" vertex="1">
@@ -201,7 +201,7 @@
                 <mxCell id="101" value="" style="group;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="74.5" y="450" width="80" height="67" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="&lt;font color=&quot;#000000&quot;&gt;Customer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="101" vertex="1">
+                <mxCell id="102" value="&lt;font color=&quot;#000000&quot;&gt;Cliente&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="101" vertex="1">
                     <mxGeometry x="20" y="7" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="103" value="&lt;font color=&quot;#000000&quot;&gt;AT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="101" vertex="1">
@@ -225,7 +225,7 @@
                 <mxCell id="7" value="AG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="8" vertex="1">
                     <mxGeometry x="1" y="-79.63636363636364" width="60" height="331.8181818181818" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;Vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="8" vertex="1">
+                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;Veiculo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="8" vertex="1">
                     <mxGeometry x="16" y="66.36363636363637" width="120" height="663.6363636363636" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="&lt;font color=&quot;#000000&quot;&gt;AG&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="8" vertex="1">
@@ -255,10 +255,10 @@
                         <mxPoint x="1089.75" y="346.1792704708986" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="" style="group;" parent="1" vertex="1" connectable="0">
+                <mxCell id="10" value="Ve" style="group;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="935" y="308.84" width="130" height="67" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;font color=&quot;#000000&quot;&gt;Sale&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="10" vertex="1">
+                <mxCell id="2" value="&lt;font color=&quot;#000000&quot;&gt;Venda&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="10" vertex="1">
                     <mxGeometry x="10" y="7" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="&lt;font color=&quot;#000000&quot;&gt;AG&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="10" vertex="1">
@@ -293,7 +293,7 @@
                 <mxCell id="109" value="&lt;font color=&quot;#000000&quot;&gt;ML&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="9.996880733944963" y="530" width="120" height="53.73134328358208" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" value="&lt;font color=&quot;#000000&quot;&gt;Operator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
+                <mxCell id="146" value="&lt;font color=&quot;#000000&quot;&gt;Operador&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
                     <mxGeometry x="95" y="860" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="148" value="&lt;font color=&quot;#000000&quot;&gt;AT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">

@@ -37,6 +37,10 @@ No diretorio api é possivel encontrar uma collection contendo todos os endpoint
 
 O Dockerfile criado para a aplicação trabalha com duas etapas, a primeira cria um container para que seja possivel executar o build da aplicação e gerar seu respectivo binário, em seguida é executado outro container que pega o binário gerado e o coloca em uma outra imagem menor.
 
+## Domain Storytelling
+
+![Storytelling](./docs/storytelling/diagram.png)
+
 ## Diagramas do Event Storming
 
 ### BrainStorming
