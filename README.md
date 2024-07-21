@@ -36,3 +36,21 @@ No diretorio api é possivel encontrar uma collection contendo todos os endpoint
 ## Build + Bake Image
 
 O Dockerfile criado para a aplicação trabalha com duas etapas, a primeira cria um container para que seja possivel executar o build da aplicação e gerar seu respectivo binário, em seguida é executado outro container que pega o binário gerado e o coloca em uma outra imagem menor.
+
+## Diagramas do Event Storming
+
+### BrainStorming
+
+![Fase-1](./docs/event-storming-fase-1.png)
+
+### Linhas do Tempo
+
+![Fase-2](./docs/event-storming-fase-2.png)
+
+### Eventos Pivotais
+
+![Fase-3](./docs/event-storming-fase-3.png)
+
+### Contextos Delimitados (Com agragados, comandos, politicas, etc)
+
+![Fase-3](./docs/event-storming-fase-4.png)
