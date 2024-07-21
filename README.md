@@ -25,7 +25,7 @@ Opção 1 para db: $```docker build -t db . -f Dockerfile.db```
 
 Opção 2 para ambos: $```make run-app```
 
-ou rode manualmente o comando: $```mdocker-compose -f build/db-docker-compose.yaml up -d```
+ou rode manualmente o comando: $```docker-compose -f build/db-docker-compose.yaml up -d```
 
 Ambos terão o mesmo resultado.
 
