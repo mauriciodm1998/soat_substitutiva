@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zklfo-LtccWzAclmQoG_" name="Page-1">
-        <mxGraphModel dx="2744" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1390" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -63,16 +63,16 @@
                         <mxPoint x="1370" y="190" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;Contextos delimitados&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="25" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;Contextos delimitados&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="290" y="-30" width="950" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="1. Registros" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="27" value="1. Registros" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="-40" y="190" width="230" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="2. Venda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="28" value="2. Venda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="560" y="190" width="230" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="3. Auditoria" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="29" value="3. Auditoria" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="1150" y="190" width="230" height="30" as="geometry"/>
                 </mxCell>
             </root>
