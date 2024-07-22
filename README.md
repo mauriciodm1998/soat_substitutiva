@@ -20,10 +20,14 @@ A linguagem obiqua está sendo respeitada e o que foi discutido no momento do ev
 
 É possivel buildar localmente as imagens para posteriormente utiliza-las no docker-compose, ou utilizar diretamente as imagens do repositório remoto:
 
-Opção 1 para api: $```docker build -t api . -f Dockerfile```
-Opção 1 para db: $```docker build -t db . -f Dockerfile.db```
+Opção 1 para api: 
+    $```docker build -t api . -f Dockerfile```
 
-Opção 2 para ambos: $```make run-app```
+Opção 1 para db:
+    $```docker build -t db . -f Dockerfile.db```
+
+Opção 2 para ambos:
+    $```make run-app```
 
 ou rode manualmente o comando: $```docker-compose -f build/db-docker-compose.yaml up -d```
 
