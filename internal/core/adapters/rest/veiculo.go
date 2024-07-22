@@ -12,7 +12,7 @@ type veiculoHdl struct {
 	veiculoService ports.VeiculoService
 }
 
-func NewVeiculoHdl(router *echo.Echo, veiculoService ports.VeiculoService) {
+func NewVeiculoHdl(router *echo.Echo, veiculoService ports.VeiculoService) ports.VeiculoHandler {
 	handler := &veiculoHdl{
 		veiculoService: veiculoService,
 	}
@@ -22,6 +22,8 @@ func NewVeiculoHdl(router *echo.Echo, veiculoService ports.VeiculoService) {
 	api.GET("/", handler.ListarVeiculosAVenda)
 	api.GET("/vendidos", handler.ListarVeiculosVendidos)
 	api.PUT("/vendidos", handler.ListarVeiculosVendidos)
+
+	return handler
 }
 
 func (h *veiculoHdl) RegistrarVeiculo(c echo.Context) error {

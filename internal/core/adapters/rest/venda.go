@@ -12,7 +12,7 @@ type VendaHdl struct {
 	vendaService ports.VendaService
 }
 
-func NewVendaHdl(router *echo.Echo, VendaService ports.VendaService) {
+func NewVendaHdl(router *echo.Echo, VendaService ports.VendaService) ports.VendaHandler {
 	handler := &VendaHdl{
 		vendaService: VendaService,
 	}
@@ -20,6 +20,8 @@ func NewVendaHdl(router *echo.Echo, VendaService ports.VendaService) {
 	api := router.Group("/venda")
 	api.POST("/", handler.CriarVenda)
 	api.GET("/", handler.BuscarVendas)
+
+	return handler
 }
 
 func (h *VendaHdl) CriarVenda(c echo.Context) error {

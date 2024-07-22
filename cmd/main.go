@@ -2,10 +2,10 @@ package main
 
 import (
 	"context"
-	"soat_substitutiva/internal/adapters/rest"
 	"soat_substitutiva/internal/config"
+	"soat_substitutiva/internal/core/adapters/repositories"
+	"soat_substitutiva/internal/core/adapters/rest"
 	"soat_substitutiva/internal/core/ports"
-	"soat_substitutiva/internal/core/repositories"
 	"soat_substitutiva/internal/core/usecases"
 
 	"github.com/jackc/pgx/v5/pgxpool"

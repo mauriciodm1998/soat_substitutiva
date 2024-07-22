@@ -12,13 +12,15 @@ type clienteHdl struct {
 	clienteService ports.ClienteService
 }
 
-func NewClienteHdl(router *echo.Echo, clienteService ports.ClienteService) {
+func NewClienteHdl(router *echo.Echo, clienteService ports.ClienteService) ports.ClienteHandler {
 	handler := &clienteHdl{
 		clienteService: clienteService,
 	}
 
 	api := router.Group("/clientes")
 	api.POST("/", handler.CadastrarCliente)
+
+	return handler
 }
 
 func (h *clienteHdl) CadastrarCliente(c echo.Context) error {
