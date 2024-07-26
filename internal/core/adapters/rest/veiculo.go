@@ -17,11 +17,11 @@ func NewVeiculoHdl(router *echo.Echo, veiculoService ports.VeiculoService) ports
 		veiculoService: veiculoService,
 	}
 
-	api := router.Group("/veiculos")
+	api := router.Group("/veiculo")
 	api.POST("/", handler.RegistrarVeiculo)
 	api.GET("/", handler.ListarVeiculosAVenda)
 	api.GET("/vendidos", handler.ListarVeiculosVendidos)
-	api.PUT("/vendidos", handler.ListarVeiculosVendidos)
+	api.PUT("/:id", handler.EditarVeiculo)
 
 	return handler
 }
@@ -72,7 +72,7 @@ func (h *veiculoHdl) ListarVeiculosVendidos(c echo.Context) error {
 func (h *veiculoHdl) EditarVeiculo(c echo.Context) error {
 	var request VeiculoRequest
 
-	id := c.QueryParam("id")
+	id := c.Param("id")
 	if id == "" {
 		return echo.NewHTTPError(http.StatusBadRequest, struct{ string }{"invalid request"})
 

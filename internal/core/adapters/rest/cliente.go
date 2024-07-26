@@ -17,7 +17,7 @@ func NewClienteHdl(router *echo.Echo, clienteService ports.ClienteService) ports
 		clienteService: clienteService,
 	}
 
-	api := router.Group("/clientes")
+	api := router.Group("/cliente")
 	api.POST("/", handler.CadastrarCliente)
 
 	return handler

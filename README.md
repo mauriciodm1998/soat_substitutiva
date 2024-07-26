@@ -2,7 +2,7 @@
 
 ## Descricao
 
-Esse serviço é responsavel pela manipulação de veiculos, clientes e vendas. Ele utiliza arquitetura hexagonal para poder separar melhor as responsabilidades de cada etapa e ser possivel implementar novas funcionalidades de maneira mais facil. Ele sobe um server http e distribui as chamadas entre os 3 dominios diferentes de acordo com a rota: /veiculos, /clientes, /venda.
+Esse serviço é responsavel pela manipulação de veiculos, clientes e vendas. Ele utiliza arquitetura hexagonal para poder separar melhor as responsabilidades de cada etapa e ser possivel implementar novas funcionalidades de maneira mais facil. Ele sobe um server http e distribui as chamadas entre os 3 dominios diferentes de acordo com a rota: /veiculo, /cliente, /venda
 A linguagem obiqua está sendo respeitada e o que foi discutido no momento do event storming e definições de palavras chave estão sendo devidamente implementadas no código.
 
 ## Features
